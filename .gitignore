@@ -1,0 +1,4 @@
+*.[oa]
+logs/*.txt
+build*
+*.exe
