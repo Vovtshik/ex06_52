@@ -5,7 +5,7 @@ using std::cout;
 using std::cin;
 using std::endl;
 
-#include <cmatc>
+#include <cmath>
 
 int main()
 { 
