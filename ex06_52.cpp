@@ -54,7 +54,7 @@ void math_Functions(int num_fun)
                  cin >> x;
               }
               break;
-      case 2: cout << "To calculate the exponent ex, enter the values x)"
+      case 3: cout << "To calculate the exponent ex, enter the values x)"
                    << "(to exit enter 22):\n";
               cin >> x;
               while(x != 22)
