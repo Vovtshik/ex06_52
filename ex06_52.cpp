@@ -131,6 +131,15 @@ void math_Functions(int num_fun)
                  cin >> y;
               }
               break;
+      case 10: cout << "To calculate trigonometric sine x (in radians), enter the values x"
+                   << "(to exit enter 22):\n";
+              cin >> x;
+              while(x != 22)
+              {
+                 cout << "sin(" << x << ") = " << sin(x) << endl;
+                 cin >> x;
+              }
+              break;
 
    }
 }
