@@ -141,7 +141,7 @@ void math_Functions(int num_fun)
               }
               break;
        case 11: cout << "To calculate the square root of x (where x is a non-negative value),"
-	             << " enter the values x"
+	             << " enter the values x\n"
                      << "(to exit enter 22):\n";
               cin >> x;
               while(x != 22)
