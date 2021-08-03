@@ -2,3 +2,5 @@
 logs/*.txt
 build*
 *.exe
+*.swp
+.gitignore
