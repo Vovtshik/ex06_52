@@ -37,7 +37,7 @@ void math_Functions(int num_fun)
    switch(num_fun)
    {
       case 1: cout << "To round x to the smallest integer not less than x, enter the values x "
-	           << "(to exit enter 22)";
+	           << "(to exit enter 22):\n";
 	      cin >> x;
 	      while(x != 22)
 	      {
