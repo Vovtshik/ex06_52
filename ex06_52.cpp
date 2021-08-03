@@ -72,6 +72,16 @@ void math_Functions(int num_fun)
                  cin >> x;
               }
               break;
+       case 5: cout << "To round x to the largest integer not exceeding x, enter the values x"
+                   << "(to exit enter 22):\n";
+              cin >> x;
+              while(x != 22)
+              {
+                 cout << "floor(" << x << ") = " << floor(x) << endl;
+                 cin >> x;
+              }
+              break;
+
 
 
    }
