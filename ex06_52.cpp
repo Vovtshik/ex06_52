@@ -45,5 +45,15 @@ void math_Functions(int num_fun)
 		 cin >> x;
 	      }
 	      break; 
+      case 2: cout << "To calculate the cosine of x (x in radians, enter the values x)"
+	           << "(to exit enter 22):\n";
+	       cin >> x;
+              while(x != 22)
+              {
+                 cout << "cos(" << x << ") = " << cos(x) << endl;
+                 cin >> x;
+              }
+              break;
+
    }
 }
