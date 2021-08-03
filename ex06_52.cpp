@@ -150,6 +150,16 @@ void math_Functions(int num_fun)
                  cin >> x;
               }
               break;
-
+       case 12: cout << "To calculate the trigonometric tangent x (x in radians),"
+	             << " enter the values x"
+                     << "(to exit enter 22):\n";
+              cin >> x;
+              while(x != 22)
+              {
+                 cout << "tan(" << x << ") = " << tan(x) << endl;
+                 cin >> x;
+              }
+              break;
+      
    }
 }
