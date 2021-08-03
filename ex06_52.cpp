@@ -82,17 +82,30 @@ void math_Functions(int num_fun)
               }
               break;
        case 6: cout << "To calculate the remainder of x/y as a floating point number\n"
-	            << "enter the values x\n"
+	            << "enter the values x\n";
               cin >> x;
+	      if(x == 22)
+	         break;
 	      cout << "enter the values y\n";
 	      cin >> y;
               while(x != 22)
               {
                  cout << "fmod(" << x <<", " << y  << ") = " << fmod(x, y) << endl;
                  cin >> x;
+		 if(x == 22)
+                    break;
 		 cin >> y;
               }
               break;
+      case 7: cout << "To calculate the natural logarithm of x (base e), enter the values x"
+                   << "(to exit enter 22):\n";
+              cin >> x;
+              while(x != 22)
+              {
+                 cout << "log(" << x << ") = " << log(x) << endl;
+                 cin >> x;
+              }
+              break;      
 
 
    }
