@@ -45,7 +45,7 @@ void math_Functions(int num_fun)
 		 cin >> x;
 	      }
 	      break; 
-      case 2: cout << "To calculate the cosine of x (x in radians, enter the values x)"
+      case 2: cout << "To calculate the cosine of x (x in radians, enter the values x"
 	           << "(to exit enter 22):\n";
 	       cin >> x;
               while(x != 22)
@@ -54,12 +54,21 @@ void math_Functions(int num_fun)
                  cin >> x;
               }
               break;
-      case 3: cout << "To calculate the exponent ex, enter the values x)"
+      case 3: cout << "To calculate the exponent ex, enter the values x"
                    << "(to exit enter 22):\n";
               cin >> x;
               while(x != 22)
               {
                  cout << "exp(" << x << ") = " << exp(x) << endl;
+                 cin >> x;
+              }
+              break;
+      case 4: cout << "To calculate the absolute value of x, enter the values x"
+                   << "(to exit enter 22):\n";
+              cin >> x;
+              while(x != 22)
+              {
+                 cout << "fabs(" << x << ") = " << fabs(x) << endl;
                  cin >> x;
               }
               break;
