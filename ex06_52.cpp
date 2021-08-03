@@ -81,7 +81,18 @@ void math_Functions(int num_fun)
                  cin >> x;
               }
               break;
-
+       case 6: cout << "To calculate the remainder of x/y as a floating point number\n"
+	            << "enter the values x\n"
+              cin >> x;
+	      cout << "enter the values y\n";
+	      cin >> y;
+              while(x != 22)
+              {
+                 cout << "fmod(" << x <<", " << y  << ") = " << fmod(x, y) << endl;
+                 cin >> x;
+		 cin >> y;
+              }
+              break;
 
 
    }
