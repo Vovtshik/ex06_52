@@ -105,7 +105,16 @@ void math_Functions(int num_fun)
                  cout << "log(" << x << ") = " << log(x) << endl;
                  cin >> x;
               }
-              break;      
+              break;     
+      case 8: cout << "To calculate the decimal logarithm of x (base 10), enter the values x"
+                   << "(to exit enter 22):\n";
+              cin >> x;
+              while(x != 22)
+              {
+                 cout << "log10(" << x << ") = " << log10(x) << endl;
+                 cin >> x;
+              }
+              break; 
 
 
    }
