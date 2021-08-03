@@ -115,7 +115,22 @@ void math_Functions(int num_fun)
                  cin >> x;
               }
               break; 
-
+      case 9: cout << "To raise x to the power of y\n"
+                    << "enter the values x\n";
+              cin >> x;
+              if(x == 22)
+                 break;
+              cout << "enter the values y\n";
+              cin >> y;
+              while(x != 22)
+              {
+                 cout << "pow(" << x <<", " << y  << ") = " << pow(x, y) << endl;
+                 cin >> x;
+                 if(x == 22)
+                    break;
+                 cin >> y;
+              }
+              break;
 
    }
 }
